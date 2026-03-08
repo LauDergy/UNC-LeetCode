@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #1f2937;
+  background: #f5f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 2rem auto;
+  padding: 0 1rem 2rem;
+}
+
+.subtitle {
+  color: #4b5563;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+}
+
+.row {
+  display: flex;
+  gap: 0.6rem;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  border: none;
+  background: #1d4ed8;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+pre {
+  background: #111827;
+  color: #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem;
+  overflow: auto;
+}
+
+.hint {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
